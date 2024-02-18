@@ -10,18 +10,27 @@
     margin: 0px;
     padding: 0px;
 }
+
+body, html{
+    min-height: 100%;
+    background-color: darkgray;
+}
+
 #cabeca{
+    margin: auto;
+    position: relative;
     background-color: black;
     height: 200px;
     padding: 
-
 }
 
 #cabeca .title{
+    position: absolut;
     color: white;
+    font-variant: small-caps;
     text-align: center;
-    font-weight: ;
     padding-top: 50px;
+    margin: auto;
 }
 
 #cabeca p{
@@ -31,16 +40,48 @@
     padding-top: 5%;
 }
 
-#cabeca p a{
+#cabeca a{
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal{
+    position: relative;
+    background-color: rgba(231, 231, 16, 0.804);
+}
+
+.normal p{
     color: white;
 }
 
-.texto{
-    background-color: white;
-    height: 200px;
+.um{
+    background: black url('imagens/background001.jpg') center center/cover no-repeat fixed ;
 }
 
-#sessao{
-    height: 200px;
+.um p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.241);
+}
+
+.dois{
+    background: black url('imagens/background002.jpg') center center/cover no-repeat fixed;
+}
+
+.dois p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.241);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
