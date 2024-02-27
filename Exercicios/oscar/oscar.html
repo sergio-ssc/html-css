@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatos ao Oscar</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom,  rgb(3, 3, 40),  rgba(4, 4, 89, 0.841)) ;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            height: 100vh;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bold;
+            color: goldenrod;
+            padding: 10px;
+        }
+
+        main{
+            bckground-color: red;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        div{
+            display: inline-block;
+            border: 3px solid goldenrod;
+            margin: 10px;
+            background-color: white;
+            height: 500px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: goldenrod;
+            text-decoration: overline;
+            padding: 10px;
+        }
+
+        .dir{
+            background-image: url('imagens/oscardir.jpg');
+        }
+
+        .ani{
+            background-image: url('imagens/oscarani2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100;
+
+            background: black url('imagens/oscarani2.jpg') center center/cover no-repeat;
+        }
+
+        .film{
+            background-image: url('imagens/oscarfilm.jpg');
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Candidatos ao Oscar 2024</h1>
+
+    <main>
+        <div class="dir">Melhor Diretor</div>
+
+        <div class="ani">Melhor Animação</div>
+
+        <div class="film">Melhor Filme</div>
+    </main>
+</body>
+</html>
