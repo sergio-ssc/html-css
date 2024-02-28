@@ -6,7 +6,7 @@
     <title>Candidatos ao Oscar</title>
     <style>
         body{
-            background-image: linear-gradient(to bottom,  rgb(3, 3, 40),  rgba(4, 4, 89, 0.841)) ;
+            background-image: linear-gradient(to bottom,  rgb(3, 3, 40),  rgba(2, 2, 58, 0.841)) ;
             font-family: Arial, Helvetica, sans-serif;
             margin: auto;
             height: 100vh;
@@ -36,18 +36,23 @@
             border-radius: 10px;
             text-align: center;
             font-weight: bold;
+            text-shadow: 1px 10px 15px black;
             color: goldenrod;
             text-decoration: overline;
             padding: 10px;
         }
 
-        .dir{
-            background-image: url('imagens/oscardir.jpg');
+        .dir {
+            background: black url('imagens/oscardir.jpg') center center/cover no-repeat;
+        } 
+
+        .dir a{
+            text-decoration: none;
+            color: goldenrod;
+            background-color: ;
         }
 
         .ani{
-            background-image: url('imagens/oscarani2.jpg');
-            background-repeat: no-repeat;
             background-size: 100;
 
             background: black url('imagens/oscarani2.jpg') center center/cover no-repeat;
@@ -63,7 +68,13 @@
     <h1>Candidatos ao Oscar 2024</h1>
 
     <main>
-        <div class="dir">Melhor Diretor</div>
+        <div class="dir">
+            <a href="oscarpg2.html" id="img">
+
+                <im src="imagens/oscardir.jpg" alt="">
+                Melhor Diretor
+            </a>
+        </div>
 
         <div class="ani">Melhor Animação</div>
 
