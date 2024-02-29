@@ -20,7 +20,6 @@
         }
 
         main{
-            bckground-color: red;
             display: flex;
             justify-content: center;
             position: relative;
@@ -29,31 +28,42 @@
 
         div{
             display: block;
-            background-color: qua;
-            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to bottom, white, black);
+            color: rgb(218, 91, 6);
             margin: auto;
-            margin-bottom: 15px;
-            height: 200px;
-            width: 900px;
+            margin-bottom: 25px;
+            height: 300px;
+            width: 800px;
             border-radius: 10px;
             text-align: center;
             font-weight: bold;
-        }
-
-        div .block2{
-            background-image: url('imagens/block2.webp');
+            font-size: x-large;
+            text-shadow: 7px 5px 10px black;
+            border: 30px;
+            position: relative;
         }
 
         .block1{
-            background: black url('imagens/block1.webp') center center ;
-            text-align: left;
-            text-shadow: 7px 5px 10px black;
+            background: url('imagens/block1.webp') center center/cover ;
         }
 
-        img{
-            width: 900px;
-            height: 200px;
+        .block2{
+            background-image: url('imagens/block2.webp');
         }
+
+        .block3{
+            background-image: url('imagens/block3.webp');
+        }
+
+        .block4{
+            background-image: url('imagens/block4.webp');
+            background-position: center;
+        }
+
+        .block5{
+            background-image: url('imagens/block5.webp');
+        }
+
     </style>
 
 </head>
@@ -61,18 +71,25 @@
     <h1>Indicados ao Oscar de Melhor Diretor</h1>
 
     <main>
-        <div class="block1">Justine Triet – Anatomia de Uma Queda</div>
+        <div class="block1">
+            Justine Triet – Anatomia de Uma Queda
+        </div>
 
        <div class="block2">
-        
         Martin Scorsese – Assassinos da Lua das Flores
        </div>
 
-       <div class="block3">Christopher Nolan – Oppenheimer</div>
+       <div class="block3">
+        Christopher Nolan – Oppenheimer
+    </div>
 
-       <div class="block4">Yorgos Lanthimos – Pobres Criaturas</div>
+       <div class="block4">Y
+        orgos Lanthimos – Pobres Criaturas
+    </div>
 
-        <div class="block5">Jonathan Glazer – Zona de Interesse</div>
+        <div class="block5">
+            Jonathan Glazer – Zona de Interesse
+        </div>
     </main>
 </body>
 </html>
