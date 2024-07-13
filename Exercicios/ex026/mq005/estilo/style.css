@@ -1,8 +1,7 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    
+*{ font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px;
     padding: 0px;
 }
@@ -13,6 +12,8 @@ body, html {
 
 header{
     background-color: gray;
+
+    border-radius: 5px;
 }
 
 header h1{
@@ -20,8 +21,23 @@ header h1{
     text-align: center;
 }
 
-menu{
+#burguer{
+    background-color: rgb(103, 102, 102);
+    color: white ;
+    border-radius: 5px;
     display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
@@ -44,12 +60,12 @@ menu > ul > li > a:hover{
 }
 
 main{
-    width: 90vw;
+    width: 80vw;
     background-color: white;
-    text-align: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     margin-top: 10px;
+    margin: auto;
 }
 
 article h2 {
