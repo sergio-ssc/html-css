@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background: url("https://fastly.picsum.photos/id/902/1600/900.jpg?hmac=V7TTgVie3pltSN5FnRAUZVRJrrPJvX5LDLURJVaGwqc");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid #515151;
+    backdrop-filter: blur(20px);
+    padding: 40px 40px;
+
+
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.input{
+    position: relative;
+    width: 90%;
+    height: 40%;
+    margin: 20px;
+    
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 
+    2px solid rgba(128, 128, 128, 0.618);
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+
+    margin-bottom: 10px;
+}
+
+.input input::placeholder{
+    color: #fff;
+}
+
+.input img{
+    position: absolute;
+    right: 24px;
+    margin-top: 10px;
+    top: 20%;
+}
+
+.input a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    margin-top:5px;
+}
+
+.input a:hover{
+    text-decoration: underline;
+}
+
+.submit {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px ;
+
+    margin-bottom: 5px;
+}
+
+.submit:hover{
+    background-color: rgb(80, 17, 138);
+}
+
+.button{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.button p a:hover{
+    text-decoration: underline;
+    color: rgb(83, 27, 135);
+}
