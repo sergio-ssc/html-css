@@ -76,7 +76,7 @@ html{
             --rotate: -20deg;
             transform-origin: center left;
             left: 100%;
-            border-bottom-right-radius: 9em 4 em;
+            border-bottom-right-radius: 9em 4em;
         }
     }
 
