@@ -19,24 +19,33 @@
             background-color: yellowgreen;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
+            
 
             padding: 10px;
         }
 
         div#cxA{
-            flex-shrink: 1;
+            /*flex-shrink: 1;
             flex-grow: 0;
+            flex-basis: 150px;*/
+
+            flex: 0 1 150px;
         }
 
         div#cxB{
-            flex-shrink: 0;
+            /*flex-shrink: 0;
             flex-grow: 1;
+            flex-basis: 150px;*/
+
+            flex: 1 0 150px;
         }
 
         div#cxC{
-            flex-shrink: 1;
+           /* flex-shrink: 1;
             flex-grow: 0;
+            flex-basis: 150px;*/
+
+            flex: 0 1 150px;
         }
     </style>
 </head>
