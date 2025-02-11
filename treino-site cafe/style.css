@@ -159,6 +159,7 @@ header .icons{
     background-color: var(--black);
     cursor: pointer;
     border-radius: 2rem;
+    padding-bottom: 1.4rem;
 }
 
 .menu .box-container .box img{
