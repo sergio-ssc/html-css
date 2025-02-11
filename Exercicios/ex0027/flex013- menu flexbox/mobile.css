@@ -2,6 +2,7 @@
 
 header, header > nav{
     flex-flow: column nowrap;
+    
 }
 
 header > h1{
@@ -11,4 +12,21 @@ header > h1{
 
 nav > a{
     width: 90vw;
+    text-align: center;
+} 
+
+header .material-symbols-outlined{
+    display: ;
+}
+
+.material-symbols-outlined{
+    background-color: #b26200;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.material-symbols-outlined:hover{
+    background-color: black;
+    color: white;
+    transition: background-color, .5s;
 }
