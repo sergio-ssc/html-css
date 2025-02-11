@@ -44,8 +44,8 @@ header > section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navbar a{
@@ -117,7 +117,7 @@ header .icons{
 }
 
 .btn:hover{
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
 }
 
 .title{
@@ -233,8 +233,17 @@ header .icons{
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    margin: 1rem;
+    text-align: center;
+}
+
+.footer .share img{
+    padding: 1rem 1rem;
+    cursor: pointer;
+    margin: 0.3rem;
+    border-radius: 50%;
+}
+
+.footer .share img:hover{
+    background-color: var(--main-color);
+    transition: .3s;
 }
