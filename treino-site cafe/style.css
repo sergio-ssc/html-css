@@ -128,6 +128,7 @@ header .icons{
     padding-bottom: 2rem;
 }
 
+
 .about .row{
     display: flex;
     align-items: center;
@@ -161,6 +162,7 @@ header .icons{
     border-radius: 2rem;
     padding-bottom: 1.4rem;
 }
+
 
 .menu .box-container .box img{
     height: 12rem;
